@@ -1,5 +1,6 @@
 from src.getPeers import getPeers
 from src.getMagnets import getMagnetsFromPage
+import pandas as pd
 
 
 def getOurIp():
@@ -24,8 +25,13 @@ def writeIpsToFile(peers):
   with open("ipAddresses.txt", "w") as f:
     for peer in peers:
       f.write(f"{peer}\n")
+  
+
+def writeIpsToCSV(peers):
+  df = pd.DataFrame([{"ip": ip, "proxy": None, "country": None, "evaluated": False} for ip in peers])
+  df.to_csv("ipAddresses.csv", index=False)
 
 if __name__ == "__main__":
-  peers = getPeersFromGames(10)
-  writeIpsToFile(peers)
-  print(len(peers))
+  peers = getPeersFromGames(300)
+  writeIpsToCSV(peers)
+  print("Successfully wrote peers: ", len(peers))

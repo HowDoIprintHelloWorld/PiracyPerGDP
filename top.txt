@@ -1,0 +1,51 @@
+Russia             2259
+Philippines         760
+India               555
+Indonesia           468
+Brazil              467
+United States       435
+Poland              413
+Italy               352
+United Kingdom      327
+Spain               297
+China               288
+France              262
+South Africa        256
+Australia           253
+Turkey              241
+Canada              224
+Bangladesh          207
+Ukraine             182
+Romania             176
+Malaysia            172
+Hungary             167
+Algeria             140
+The Netherlands     137
+Czechia             133
+Pakistan            132
+Egypt               126
+Greece              123
+Thailand            114
+Serbia              113
+Portugal            110
+Saudi Arabia         97
+Israel               97
+Sweden               96
+Argentina            95
+South Korea          93
+Vietnam              85
+Slovenia             80
+Belarus              79
+Belgium              75
+Croatia              75
+Kazakhstan           73
+Morocco              66
+Tunisia              64
+Lithuania            63
+Singapore            60
+Slovakia             60
+Bulgaria             59
+Japan                58
+Germany              53
+Taiwan               49
+Name: country, dtype: int64

@@ -1,0 +1,22 @@
+% VPN is only 0.19334 (Apparently)
+-> Should be much higher
+-> Either way, most people connect to VPN of their country for faster speeds
+-> Safe to assume that stats are more or less correct
+
+
+countries:
+1) US of A
+2) Russia
+3) Germany
+4) India
+5) Turkey
+6) Philippines
+7) Spain
+8) Bulgaria
+9) Australia
+10) Brazil
+11) South Africa
+12) Burundi
+13) China
+14) France
+15) Algeria
